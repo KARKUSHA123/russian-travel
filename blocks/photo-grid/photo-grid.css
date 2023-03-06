@@ -14,5 +14,7 @@
   .photo-grid {
     margin: 0px 16px 64px 16px;
     gap: 12px;
+    margin-top: 64px;
+    width: 288px;
   }
 }
