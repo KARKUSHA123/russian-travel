@@ -9,7 +9,3 @@
   transition: opacity, 0.3s linear;
   text-decoration-line: none;
 }
-
-.places__url-heading:hover {
-  opacity: 0.8;
-}
