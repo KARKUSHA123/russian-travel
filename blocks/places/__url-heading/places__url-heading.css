@@ -4,9 +4,10 @@
   line-height: 12px;
   letter-spacing: 2px;
   margin: 0 0 12px 0;
-  color: #AAA;
+  color: #aaa;
   padding: 0;
   transition: opacity, 0.3s linear;
+  text-decoration-line: none;
 }
 
 .places__url-heading:hover {
