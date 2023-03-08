@@ -12,13 +12,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .cover__background::before {
-  content: '';
+  content: "";
   position: absolute;
-  background: #2A2C2F;
+  background: #2a2c2f;
   margin: 0;
   left: 0;
   top: 0;
@@ -29,30 +28,30 @@
   height: 100%;
 }
 
-  .cover__background:hover::before {
-    opacity: .8;
+.cover__background:hover::before {
+  opacity: 0.8;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
 
- @media screen and (max-width: 1024px) {
-    .cover__background {
-      min-height: 640px;
-    }
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
 }
-  
- @media screen and (max-width: 768px) {
-    .cover__background {
-      min-height: 480px;
-    }
-}
-  
+
 @media screen and (max-width: 460px) {
-    .cover__background {
-     min-height: 287px;
-}
+  .cover__background {
+    min-height: 287px;
+  }
 }
 @media screen and (max-width: 320px) {
   .cover__background {
     background-size: contain;
+    max-height: 200px;;
   }
 }
