@@ -52,6 +52,6 @@
 @media screen and (max-width: 320px) {
   .cover__background {
     background-size: contain;
-    max-height: 200px;;
+    min-height: 200px;
   }
 }
